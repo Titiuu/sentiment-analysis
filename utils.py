@@ -1,7 +1,7 @@
 # -*coding: utf-8*-
 import jieba
 
-
+# make a change
 # 停用词列表
 def get_stopwords():
     stop_f = open('cn_stopwords.txt', "r", encoding='utf-8')
