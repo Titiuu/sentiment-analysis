@@ -19,7 +19,7 @@ def get_lines_lables(path, sentiment):
     texts = []
     labels = []
     stopwords = get_stopwords()
-    f = open(path, "r", encoding='utf8')
+    f = open(path, "r", encoding='utf8')# 打开对应文件
     for line in f.readlines()[:5000]:
         chinese_list = re.findall(r'[\u4e00-\u9fa5]+', line)
         chinese_line = ''
